@@ -4,7 +4,7 @@ To initiate the website, execute the "main.py" file located in the folder, and t
 
 
 
-Here is the main interface display of the website.
+Here are the main interface displays of the website.
 
 ![01.png](pic/01.png)
 
