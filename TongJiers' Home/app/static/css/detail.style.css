@@ -1,0 +1,120 @@
+/* 修饰detail.html */
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@font-face {
+    font-family: spanFont;
+    src: url(../font/SpanFont.ttf);
+}
+
+.head-title {
+    font-family: spanFont;
+    text-align: center;
+    line-height: 200px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* 背景 */
+.background {
+    background-image: url(../image/detail/background.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: center;
+}
+
+.header1-background {
+    background-image: url(../image/detail/lace.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+}
+
+.appoint {
+    text-align: right;
+    margin-top: 5px;
+
+}
+
+.appoint img {
+    width: 25px;
+    height: 25px;
+}
+
+.appoint span {
+    line-height: 25px;
+}
+
+/* 主要内容 */
+.main-content {
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 40px;
+    margin-right: auto;
+    width: fit-content;
+    height: 500px;
+}
+
+/* 展示图片 */
+.imagestyle {
+    width: fit-content;
+    margin: 0 auto;
+    float: left;
+}
+
+.imagescale {
+    width: 700px;
+    height: 450px;
+    border-width: 1px 2px 2px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+@font-face {
+    font-family: xkFont;
+    src: url(../font/xkFont.ttf);
+}
+
+/* 介绍文字 */
+.textstyle {
+    font-family: xkFont;
+    font-size: 25px;
+    width: 400px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    margin-top: 0px;
+    margin-left: 120px;
+    float: right;
+    word-break: break-all;
+    text-indent: 2em;
+}
+
+/* 底部导航栏 */
+@font-face {
+    font-family: tfFont;
+    src: url(../font/tfFont.ttf);
+}
+
+.sub-buttom-nav {
+    text-align: center;
+    line-height: 120px;
+    color: darkorange;
+    font-family: tfFont;
+    font-size: 25px;
+}
+
+.sub-buttom-nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.sub-buttom-nav a:hover {
+    color: black;
+}

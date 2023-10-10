@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="../static/favicon.ico">
+	<title>云游同济</title>
+	<link rel="stylesheet" href="../static/css/web.showhide.css" />
+	<link rel="stylesheet" href="../static/css/web.mystyle.css" />
+	<script type="text/javascript" src="../static/js/showhide.js"></script>
+</head>
+
+<body>
+
+	<div class="main-nav">
+		<div class="logo">
+			<a href="#">
+				<img src="../static/favicon.ico" alt="TongJiLogo.png">
+			</a>
+			<a href="#">
+				<span>同济の家</span>
+			</a>
+		</div>
+		<ul>
+			<li><a href="{{ url_for('mainIndex') }}">首页</a></li>
+			<li><a href="{{ url_for('blogs') }}">校园生活</a></li>
+			<li><a href="{{ url_for('web') }}">云游同济</a></li>
+			<li><a href="{{ url_for('about_us') }}">关于我们</a></li>
+			<li><a href="{{ url_for('index') }}">个人博客</a></li>
+			<div class="nav_box"></div>
+		</ul>
+	</div>
+
+	<div class="photo">
+		<div><img src="../static/image/web/river.jpg" alt="嘉定河畔" height="200px"></div>
+		<div><img src="../static/image/web/jd.jpg" alt="嘉定" height="200px"></div>
+		<div><img src="../static/image/web/cat.jpg" alt="猫" height="200px"></div>
+		<div><img src="../static/image/web/food.jpg" alt="济美食" height="200px"></div>
+		<div><img src="../static/image/web/cloud.jpg" alt="天空" height="200px"></div>
+		<div><img src="../static/image/web/gate.jpg" alt="同济" height="200px"></div>
+		<div><img src="../static/image/web/flower.jpg" alt="四平樱花" height="200px"></div>
+	</div>
+
+	<div id="showhide">
+		<div class="td-list">
+			<p>
+				<a href="http://all.tongji.edu.cn" target="_blank" class="item01">一网通办</a>
+				<a href="http://oa.tongji.edu.cn/login/Login.jsp?logintype=1" target="_blank" class="item02">OA系统</a>
+				<a href="http://www.lib.tongji.edu.cn/" target="_blank" class="item03">图书馆</a>
+				<a href="https://help.tongji.edu.cn/" target="_blank" class="item04">同心云</a>
+				<a href="http://service.tongji.edu.cn" target="_blank" class="item05">办事大厅</a>
+				<a href="https://1.tongji.edu.cn" target="_blank" class="item06">教务系统</a>
+			</p>
+			<div id="show" style="display:none">
+				<p>
+					<a href="http://cwc.tongji.edu.cn/WFManager/login.jsp" target="_blank" class="item07">财务系统</a>
+					<a href="http://nic.tongji.edu.cn/" target="_blank" class="item08">网络中心</a>
+					<a href="https://www.tongji.edu.cn/wx.htm" target="_blank" class="item09">同济微信</a>
+					<a href="https://weibo.com/tongjiuniversity" target="_blank" class="item10">同济微博</a>
+					<a href="https://mail.tongji.edu.cn/coremail/index.jsp" target="_blank" class="item11">同济邮箱</a>
+					<a href="https://www.douyin.com/user/MS4wLjABAAAAdCQLg0R2S0LakR5PfyJEkQclHg-YooZ4Y8pj6D6uPh4"
+						target="_blank" class="item12">同济抖音</a>
+					<a href="https://www.kuaishou.com/profile/3xn6w5r85nc9djc" target="_blank" class=" item13">同济快手</a>
+					<a href="https://space.bilibili.com/481701670?from=search&ampseid=3712209867347899427"
+						target="_blank" class="item14">同济bilibili</a>
+					<a href="http://fund.tongji.edu.cn/" target="_blank" class="item15">我要捐赠</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<p class="slide"><a href="javascript:showdiv();" id="strHref" class="change-slide">查看更多</a></p>
+
+	<div>
+		<footer class="footer">
+			<div class="row">
+				<span class="footer-logo"><img src="../static/image/aboutus/FootLogo.png" alt="footerlogo.png" />
+			</div>
+			<span class="footer-copyright">
+				<p>Copyright © 2022 Tongji</p>
+			</span>
+		</footer>
+	</div>
+
+	<div class="gif-decoration">
+		<img src="../static/image/web/gif1.png" alt="gif1" class="gif1">
+		<img src="../static/image/web/gif2.gif" alt="gif2" class="gif2">
+	</div>
+</body>
+
+</html>
